@@ -19,8 +19,7 @@ Vue.use(VueAxios, axios);
  
 //base: './control/public',
 const router = new VueRouter({
-    mode: 'history',  
-    base: './control/public', 
+    mode: 'abstract',  
     routes: routes
 });
  
